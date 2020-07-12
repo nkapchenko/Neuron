@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<!DOCTYPE MacsML>
+<MacsML>
+	<IDs> 4293 ; 0 </IDs>
+	<MacsInstrument> European swaption </MacsInstrument>
+	<ProcessesList>
+		<NumberOfElements> 1 </NumberOfElements>
+		<Processes>
+			<Process>
+				<ProcessLabel>USD</ProcessLabel>
+				<ProcessMarket>Unknown</ProcessMarket>
+				<RateCurve>
+					<OneDCurve>
+						<CurveLabel>USD FEDFUND</CurveLabel>
+						<InterpolationMethod> RateTime_Linear </InterpolationMethod>
+						<NumberOfElements> 93 </NumberOfElements>
+						<Buckets>  0.0000000000000  ;   7.0136986301370  ;   9.0109589041096  ;  10.0082191780822  ;  10.0136986301370  ;  10.2602739726027  ;  10.2657534246575  ;  10.5068493150685  ;  10.5123287671233  ;  10.7561643835616  ;  10.7616438356164  ;  11.0082191780822  ;  11.0136986301370  ;  11.2602739726027  ;  11.2712328767123  ;  11.5068493150685  ;  11.5123287671233  ;  11.5205479452055  ;  11.7561643835616  ;  11.7616438356164  ;  12.0082191780822  ;  12.0191780821918  ;  12.2575342465753  ;  12.2684931506849  ;  12.2712328767123  ;  12.5068493150685  ;  12.5178082191781  ;  12.7561643835616  ;  12.7671232876712  ;  13.0054794520548  ;  13.0164383561644  ;  13.0191780821918  ;  13.2547945205479  ;  13.2657534246575  ;  13.2684931506849  ;  13.5041095890411  ;  13.5150684931507  ;  13.7534246575342  ;  13.7643835616438  ;  14.0054794520548  ;  14.0164383561644  ;  14.2630136986301  ;  14.2684931506849  ;  14.5041095890411  ;  14.5150684931507  ;  14.7534246575342  ;  14.7643835616438  ;  15.0109589041096  ;  15.0164383561644  ;  15.2630136986301  ;  15.2684931506849  ;  15.5095890410959  ;  15.5150684931507  ;  15.7589041095890  ;  15.7643835616438  ;  16.0109589041096  ;  16.0164383561644  ;  16.2630136986301  ;  16.2684931506849  ;  16.5095890410959  ;  16.5150684931507  ;  16.7589041095890  ;  16.7643835616438  ;  17.0109589041096  ;  17.0164383561644  ;  17.2630136986301  ;  17.2739726027397  ;  17.5123287671233  ;  17.5232876712329  ;  17.7616438356164  ;  17.7726027397260  ;  18.0109589041096  ;  18.0219178082192  ;  18.0246575342466  ;  18.2602739726027  ;  18.2712328767123  ;  18.2739726027397  ;  18.5095890410959  ;  18.5205479452055  ;  18.7589041095890  ;  18.7698630136986  ;  19.0082191780822  ;  19.0191780821918  ;  19.0219178082192  ;  19.2602739726027  ;  19.2712328767123  ;  19.5041095890411  ;  19.5205479452055  ;  19.7561643835616  ;  19.7671232876712  ;  19.7698630136986  ;  20.0191780821918  ;  25.0219178082192 </Buckets>
+						<Values>  0.0277322237867  ;   0.0277322237867  ;   0.0281745351381  ;   0.0283591495164  ;   0.0283599854914  ;   0.0283954185959  ;   0.0283961604184  ;   0.0284270738400  ;   0.0284277397749  ;   0.0284559424369  ;   0.0284565464573  ;   0.0284825785417  ;   0.0284831337557  ;   0.0285072584162  ;   0.0285082958596  ;   0.0285300436058  ;   0.0285305384556  ;   0.0285312799454  ;   0.0285522064265  ;   0.0285526871072  ;   0.0285741771664  ;   0.0285751292029  ;   0.0285958355864  ;   0.0285967873368  ;   0.0285970252674  ;   0.0286174721389  ;   0.0286184222046  ;   0.0286390560754  ;   0.0286400031605  ;   0.0286605589999  ;   0.0286615019066  ;   0.0286617376006  ;   0.0286819546524  ;   0.0286828922724  ;   0.0286831266374  ;   0.0287032187126  ;   0.0287041500185  ;   0.0287243286234  ;   0.0287252526615  ;   0.0287454924406  ;   0.0287464082305  ;   0.0287669105658  ;   0.0287673638638  ;   0.0287867554888  ;   0.0287876525355  ;   0.0288070507256  ;   0.0288079373001  ;   0.0288277569766  ;   0.0288281945670  ;   0.0288477407743  ;   0.0288481715596  ;   0.0288669447288  ;   0.0288673669602  ;   0.0288859306441  ;   0.0288863424391  ;   0.0289046036395  ;   0.0289050031691  ;   0.0289226756331  ;   0.0289230612794  ;   0.0289397038381  ;   0.0289400744314  ;   0.0289562013531  ;   0.0289565553339  ;   0.0289720814363  ;   0.0289724172818  ;   0.0289870984361  ;   0.0289877308815  ;   0.0290010475038  ;   0.0290016391797  ;   0.0290140447878  ;   0.0290145934837  ;   0.0290260413325  ;   0.0290265449590  ;   0.0290266705491  ;   0.0290369908557  ;   0.0290374474371  ;   0.0290375612526  ;   0.0290468495690  ;   0.0290472572350  ;   0.0290555760118  ;   0.0290559329909  ;   0.0290631308986  ;   0.0290634355117  ;   0.0290635112996  ;   0.0290695398676  ;   0.0290697899203  ;   0.0290745297232  ;   0.0290748224982  ;   0.0290784031155  ;   0.0290785413922  ;   0.0290785755656  ;   0.0290810173222  ;   0.0289113121148 </Values>
+					</OneDCurve>
+				</RateCurve>
+				<SpreadRateCurveList>
+					<SpreadRateCurveNumber> 1 </SpreadRateCurveNumber>
+					<SpreadRateCurves>
+						<SpreadRateCurve>
+							<OneDCurve>
+								<CurveLabel>USD LIBOR 3M</CurveLabel>
+								<InterpolationMethod> RateTime_Linear </InterpolationMethod>
+								<NumberOfElements> 93 </NumberOfElements>
+								<Buckets>  0.0000000000000  ;   7.0136986301370  ;   9.0109589041096  ;  10.0082191780822  ;  10.0136986301370  ;  10.2602739726027  ;  10.2657534246575  ;  10.5068493150685  ;  10.5123287671233  ;  10.7561643835616  ;  10.7616438356164  ;  11.0082191780822  ;  11.0136986301370  ;  11.2602739726027  ;  11.2712328767123  ;  11.5068493150685  ;  11.5123287671233  ;  11.5205479452055  ;  11.7561643835616  ;  11.7616438356164  ;  12.0082191780822  ;  12.0191780821918  ;  12.2575342465753  ;  12.2684931506849  ;  12.2712328767123  ;  12.5068493150685  ;  12.5178082191781  ;  12.7561643835616  ;  12.7671232876712  ;  13.0054794520548  ;  13.0164383561644  ;  13.0191780821918  ;  13.2547945205479  ;  13.2657534246575  ;  13.2684931506849  ;  13.5041095890411  ;  13.5150684931507  ;  13.7534246575342  ;  13.7643835616438  ;  14.0054794520548  ;  14.0164383561644  ;  14.2630136986301  ;  14.2684931506849  ;  14.5041095890411  ;  14.5150684931507  ;  14.7534246575342  ;  14.7643835616438  ;  15.0109589041096  ;  15.0164383561644  ;  15.2630136986301  ;  15.2684931506849  ;  15.5095890410959  ;  15.5150684931507  ;  15.7589041095890  ;  15.7643835616438  ;  16.0109589041096  ;  16.0164383561644  ;  16.2630136986301  ;  16.2684931506849  ;  16.5095890410959  ;  16.5150684931507  ;  16.7589041095890  ;  16.7643835616438  ;  17.0109589041096  ;  17.0164383561644  ;  17.2630136986301  ;  17.2739726027397  ;  17.5123287671233  ;  17.5232876712329  ;  17.7616438356164  ;  17.7726027397260  ;  18.0109589041096  ;  18.0219178082192  ;  18.0246575342466  ;  18.2602739726027  ;  18.2712328767123  ;  18.2739726027397  ;  18.5095890410959  ;  18.5205479452055  ;  18.7589041095890  ;  18.7698630136986  ;  19.0082191780822  ;  19.0191780821918  ;  19.0219178082192  ;  19.2602739726027  ;  19.2712328767123  ;  19.5041095890411  ;  19.5205479452055  ;  19.7561643835616  ;  19.7671232876712  ;  19.7698630136986  ;  20.0191780821918  ;  25.0219178082192 </Buckets>
+								<Values>  0.0034718882954  ;   0.0034718882954  ;   0.0033984826328  ;   0.0034037009858  ;   0.0034039043872  ;   0.0034152218942  ;   0.0034155166957  ;   0.0034299748836  ;   0.0034303331018  ;   0.0034472584089  ;   0.0034476569997  ;   0.0034660959064  ;   0.0034665132116  ;   0.0034853312450  ;   0.0034861625136  ;   0.0035036762543  ;   0.0035040725761  ;   0.0035046658910  ;   0.0035209646024  ;   0.0035213247653  ;   0.0035364182724  ;   0.0035370332161  ;   0.0035491586085  ;   0.0035496605911  ;   0.0035497853498  ;   0.0035594481455  ;   0.0035598479752  ;   0.0035675237818  ;   0.0035678314422  ;   0.0035736042622  ;   0.0035738289791  ;   0.0035738846194  ;   0.0035778918736  ;   0.0035780421855  ;   0.0035780792810  ;   0.0035805739643  ;   0.0035806577854  ;   0.0035818242981  ;   0.0035818489740  ;   0.0035817975552  ;   0.0035817693745  ;   0.0035805903501  ;   0.0035805528411  ;   0.0035785148901  ;   0.0035784008332  ;   0.0035755352557  ;   0.0035753867391  ;   0.0035716951420  ;   0.0035716059375  ;   0.0035673032057  ;   0.0035672015263  ;   0.0035624944547  ;   0.0035623824889  ;   0.0035572021347  ;   0.0035570815753  ;   0.0035514934438  ;   0.0035513659292  ;   0.0035455020105  ;   0.0035453691763  ;   0.0035394373647  ;   0.0035393008140  ;   0.0035331668104  ;   0.0035330279093  ;   0.0035267493178  ;   0.0035266093955  ;   0.0035203140163  ;   0.0035200347155  ;   0.0035139873909  ;   0.0035137110158  ;   0.0035077518706  ;   0.0035074806561  ;   0.0035016569440  ;   0.0035013930019  ;   0.0035013270735  ;   0.0034957493965  ;   0.0034954947244  ;   0.0034954311267  ;   0.0034900734933  ;   0.0034898299816  ;   0.0034846711461  ;   0.0034844405854  ;   0.0034795820676  ;   0.0034793661555  ;   0.0034793122838  ;   0.0034747939306  ;   0.0034745944646  ;   0.0034705380107  ;   0.0034702652115  ;   0.0034665615037  ;   0.0034663988762  ;   0.0034663583564  ;   0.0034629060457  ;   0.0035067884119 </Values>
+							</OneDCurve>
+						</SpreadRateCurve>
+					</SpreadRateCurves>
+				</SpreadRateCurveList>
+				<RateCurveMapping>
+					<ModelSpreadCurve>
+						<RefCurveNoSpread> TRUE </RefCurveNoSpread>
+						<RefCurveLabel>USD FEDFUND</RefCurveLabel>
+					</ModelSpreadCurve>
+					<EvalSpreadCurve>
+						<RefCurveNoSpread> TRUE </RefCurveNoSpread>
+						<RefCurveLabel>USD FEDFUND</RefCurveLabel>
+					</EvalSpreadCurve>
+					<SwapDiscountSpreadCurve>
+						<RefCurveNoSpread> TRUE </RefCurveNoSpread>
+						<RefCurveLabel>USD FEDFUND</RefCurveLabel>
+					</SwapDiscountSpreadCurve>
+					<SwapEstimationSpreadCurves>
+						<SwapEstimationSpreadCurve>
+							<SpreadCurveKey> 0 </SpreadCurveKey>
+							<SpreadCurveTenor> 3 </SpreadCurveTenor>
+							<SpreadCurveLabel>USD LIBOR 3M</SpreadCurveLabel>
+						</SwapEstimationSpreadCurve>
+					</SwapEstimationSpreadCurves>
+				</RateCurveMapping>
+				<FactorsList>
+					<NumberOfElements> 1 </NumberOfElements>
+					<Factors>
+						<Factor>
+							<VolatilityCurve>
+								<OneDCurve>
+									<InterpolationMethod> PieceWise </InterpolationMethod>
+									<NumberOfElements> 2 </NumberOfElements>
+									<Buckets>  0.0000000000000  ;  30.0191780821918 </Buckets>
+									<Values>  0.0000001000000  ;   0.0000001000000 </Values>
+								</OneDCurve>
+							</VolatilityCurve>
+							<MeanRR>  0.0010000000000</MeanRR>
+						</Factor>
+					</Factors>
+				</FactorsList>
+				<FactorsCorrelations> 0.0000000000000000 ; 0.0000000000000000 ; 0.0000000000000000 </FactorsCorrelations>
+				<CalibrationBasket>
+					<CalibrationStatus> Ok </CalibrationStatus>
+					<CalMeanR> BootstrapOnly </CalMeanR>
+					<UseAdjusters> 0 </UseAdjusters>
+					<FBestFitLevel> -1 </FBestFitLevel>
+					<SBestFitLevel> -1 </SBestFitLevel>
+					<FBootstrapLevel> 0 </FBootstrapLevel>
+					<SBootstrapLevel> 1 </SBootstrapLevel>
+					<FAdjusterLevel> 0 </FAdjusterLevel>
+					<SAdjusterLevel> 0 </SAdjusterLevel>
+					<MaxAdjusterStdDev> 0.00 </MaxAdjusterStdDev>
+					<CalAnalysis> 1 </CalAnalysis>
+					<CalibrateSkew> 0 </CalibrateSkew>
+					<ANSLinearInterpolation> 0 </ANSLinearInterpolation>
+					<CmsLevels> 0  ;  0  ;  0  ;  0  ;  0 </CmsLevels>
+					<CalibrationLevelDescriptionList>
+						<CalibrationLevelDescription>0 ; Coterminal ; OnExercizeDate </CalibrationLevelDescription>
+					</CalibrationLevelDescriptionList>
+					<NumberOfElements> 1 </NumberOfElements>
+					<CalibrationInstruments>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>  10.0082191780822  </OptionExpiry>
+							<FXDeltaATMDefinition> 0 </FXDeltaATMDefinition>
+							<FXDeltaConvention> 0 </FXDeltaConvention>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<Strike>   3.3642446564816  </Strike>
+							<BlackVol>   0.1048341660710  </BlackVol>
+							<SmileShift>   0.0300000000000  </SmileShift>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<AnalyticalSmile>
+								<ASUse> 1 </ASUse>
+								<ASCalibrate> 0 </ASCalibrate>
+								<ASCalibOnATM> 0 </ASCalibOnATM>
+								<ASExcludeATMExtraW> 0 </ASExcludeATMExtraW>
+								<ASType> SABR </ASType>
+								<ASOptionalForward>   0.0000000000000  </ASOptionalForward>
+								<SABRParams>
+									<Forward>   0.0000000000000 </Forward>
+									<Alpha>   0.0249317047753 </Alpha>
+									<Beta>   0.5000000000000 </Beta>
+									<Rho>  -0.1616336716301 </Rho>
+									<VoVol>   0.2865634033041 </VoVol>
+									<AlphaNormalized>   0.0000000000000 </AlphaNormalized>
+									<ATMVol>   0.0000000000000 </ATMVol>
+									<AlphaOrATMVolDriven> 0 </AlphaOrATMVolDriven>
+									<CalibrateRhoOrBeta> 0 </CalibrateRhoOrBeta>
+									<WingsExtrapolation> No </WingsExtrapolation>
+								</SABRParams>
+							</AnalyticalSmile>
+							<SmileSlice>
+								<OneDCurve>
+									<InterpolationMethod> Linear </InterpolationMethod>
+									<NumberOfElements> 17 </NumberOfElements>
+									<Buckets>  0.5286164875914  ;   0.6857443250609  ;   0.7643082437957  ;   0.8428721625305  ;   0.8821541218978  ;   0.9214360812652  ;   0.9607180406326  ;   0.9803590203163  ;   1.0000000000000  ;   1.0196409796837  ;   1.0392819593674  ;   1.0785639187348  ;   1.1178458781022  ;   1.1571278374695  ;   1.2356917562043  ;   1.3142556749391  ;   1.4713835124086 </Buckets>
+									<Values>  0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000 </Values>
+								</OneDCurve>
+							</SmileSlice>
+							<SliceXType> Ratio </SliceXType>
+							<KRef>   0.0336424465648  </KRef>
+							<SmileDynKRef>   0.0336424465648  </SmileDynKRef>
+							<BasicDyn>Analytic </BasicDyn>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<CalInstStatus> Unknown </CalInstStatus>
+							<CalibratedPremium>   0.0000000000000  </CalibratedPremium>
+							<CalibratedVolatility>   0.0000000000000  </CalibratedVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<FlowsNb> 22 </FlowsNb>
+							<Flows>
+								<Flow>  10.0136986301370 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>  10.5123287671233 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  11.0136986301370 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  11.5123287671233 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  12.0191780821918 ;   0.0170081257633 ;   0.5055555555556 ; FixFleg </Flow>
+								<Flow>  12.5178082191781 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  13.0164383561644 ;   0.0167277720420 ;   0.4972222222222 ; FixFleg </Flow>
+								<Flow>  13.5150684931507 ;   0.0167277720420 ;   0.4972222222222 ; FixFleg </Flow>
+								<Flow>  14.0164383561644 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  14.5150684931507 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  15.0164383561644 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  15.5150684931507 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  16.0164383561644 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  16.5150684931507 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  17.0164383561644 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  17.5232876712329 ;   0.0170081257633 ;   0.5055555555556 ; FixFleg </Flow>
+								<Flow>  18.0219178082192 ;   0.0167277720420 ;   0.4972222222222 ; FixFleg </Flow>
+								<Flow>  18.5205479452055 ;   0.0168212232824 ;   0.5000000000000 ; FixFleg </Flow>
+								<Flow>  19.0191780821918 ;   0.0167277720420 ;   0.4972222222222 ; FixFleg </Flow>
+								<Flow>  19.5205479452055 ;   0.0169146745229 ;   0.5027777777778 ; FixFleg </Flow>
+								<Flow>  20.0191780821918 ;   0.0167277720420 ;   0.4972222222222 ; FixFleg </Flow>
+								<Flow>  20.0191780821918 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+					</CalibrationInstruments>
+				</CalibrationBasket>
+				<Beta>0.000000</Beta>
+				<CapSmile>0</CapSmile>
+				<VolType> VolFwdFwd </VolType>
+				<ModelType> HW </ModelType>
+				<PositiveRates>0</PositiveRates>
+				<AssetType> Rate </AssetType>
+				<AssetProxyType> Rate </AssetProxyType>
+				<IsRisky> No </IsRisky>
+				<DSCCreditBased> 0 </DSCCreditBased>
+				<EvalSpreadCurveNumber> 0 </EvalSpreadCurveNumber>
+				<CSOCorrNumber> 0 </CSOCorrNumber>
+			</Process>
+		</Processes>
+	</ProcessesList>
+	<CorrelationsList>
+		<NumberOfElements> 1 </NumberOfElements>
+		<Correlations>
+			<Correlation> Rate ; 0 ; Rate ; 0 ;   1.0000000000000 </Correlation>
+		</Correlations>
+	</CorrelationsList>
+	<ModelSettings>
+		<Category> 1DRatePde </Category>
+		<Iterations>600 </Iterations>
+		<SpotIterations>50 </SpotIterations>
+		<MaxYear>0 </MaxYear>
+		<Tenor>0 </Tenor>
+		<ExercizeProbability> 0 </ExercizeProbability>
+		<KnockProbability> 0 </KnockProbability>
+		<FlowExpectation> 0 </FlowExpectation>
+		<MaxThreads> 0 </MaxThreads>
+		<InitImplDate> 0 </InitImplDate>
+	</ModelSettings>
+	<UPLFlags>
+		<BarrierAdjustment>0 </BarrierAdjustment>
+	</UPLFlags>
+	<QueriesList>
+		<NumberOfElements> 5 </NumberOfElements>
+		<Queries>
+			<Query>
+				<QRType> Npv </QRType>
+				<QRAssetType> Rate </QRAssetType>
+				<QRAsset> 0 </QRAsset>
+				<QRLevel> 0 </QRLevel>
+				<QRCalibrate> 1 </QRCalibrate>
+				<QueryGenerateAnalyticalSns> 0 </QueryGenerateAnalyticalSns>
+				<ExcludeAnalyticalSnsCompuation> 0 </ExcludeAnalyticalSnsCompuation>
+				<TermStructureAsOneBump> 0 </TermStructureAsOneBump>
+				<SausageMode> 0 </SausageMode>
+			</Query>
+			<Query>
+				<QRType> CalBasketVolatilitiesBump </QRType>
+				<QRLabel>1</QRLabel>
+				<QRAssetType> Rate </QRAssetType>
+				<QRAsset> 0 </QRAsset>
+				<QRLevel> 0 </QRLevel>
+				<QRCalibrate> 1 </QRCalibrate>
+				<QueryGenerateAnalyticalSns> 0 </QueryGenerateAnalyticalSns>
+				<ExcludeAnalyticalSnsCompuation> 0 </ExcludeAnalyticalSnsCompuation>
+				<TermStructureAsOneBump> 1 </TermStructureAsOneBump>
+				<SausageMode> 0 </SausageMode>
+				<QRBuckets>
+					<OneDCurve>
+						<InterpolationMethod> Linear </InterpolationMethod>
+						<NumberOfElements> 1 </NumberOfElements>
+						<Buckets>  0.0000000000000 </Buckets>
+						<Values>  0.0100000000000 </Values>
+					</OneDCurve>
+				</QRBuckets>
+			</Query>
+			<Query>
+				<QRType> SabrAtmVol </QRType>
+				<QRLabel>2</QRLabel>
+				<QRAssetType> Rate </QRAssetType>
+				<QRAsset> 0 </QRAsset>
+				<QRLevel> 0 </QRLevel>
+				<QRCalibrate> 1 </QRCalibrate>
+				<QueryGenerateAnalyticalSns> 0 </QueryGenerateAnalyticalSns>
+				<ExcludeAnalyticalSnsCompuation> 0 </ExcludeAnalyticalSnsCompuation>
+				<TermStructureAsOneBump> 1 </TermStructureAsOneBump>
+				<SausageMode> 0 </SausageMode>
+				<QRBuckets>
+					<OneDCurve>
+						<InterpolationMethod> Linear </InterpolationMethod>
+						<NumberOfElements> 1 </NumberOfElements>
+						<Buckets>  0.0000000000000 </Buckets>
+						<Values>  0.0100000000000 </Values>
+					</OneDCurve>
+				</QRBuckets>
+			</Query>
+			<Query>
+				<QRType> RatesBumpNoPropagation </QRType>
+				<QRLabel>3</QRLabel>
+				<QRAssetType> Rate </QRAssetType>
+				<QRAsset> 0 </QRAsset>
+				<QRLevel> 0 </QRLevel>
+				<QRRefCurveLabel>USD FEDFUND</QRRefCurveLabel>
+				<QRCalibrate> 1 </QRCalibrate>
+				<QueryGenerateAnalyticalSns> 0 </QueryGenerateAnalyticalSns>
+				<ExcludeAnalyticalSnsCompuation> 0 </ExcludeAnalyticalSnsCompuation>
+				<TermStructureAsOneBump> 1 </TermStructureAsOneBump>
+				<SausageMode> 0 </SausageMode>
+				<QRBuckets>
+					<OneDCurve>
+						<InterpolationMethod> Linear </InterpolationMethod>
+						<NumberOfElements> 6 </NumberOfElements>
+						<Buckets>  7.0136986301370  ;  10.0136986301370  ;  12.0191780821918  ;  15.0164383561644  ;  20.0191780821918  ;  25.0219178082192 </Buckets>
+						<Values>  0.0010000000000  ;   0.0010000000000  ;   0.0010000000000  ;   0.0010000000000  ;   0.0010000000000  ;   0.0010000000000 </Values>
+					</OneDCurve>
+				</QRBuckets>
+			</Query>
+			<Query>
+				<QRType> SpreadCurveBump </QRType>
+				<QRLabel>4</QRLabel>
+				<QRAssetType> Rate </QRAssetType>
+				<QRAsset> 0 </QRAsset>
+				<QRLevel> 0 </QRLevel>
+				<QRSpreadCurveKey> 0 </QRSpreadCurveKey>
+				<QRSpreadCurveLabel>USD LIBOR 3M</QRSpreadCurveLabel>
+				<QRCalibrate> 1 </QRCalibrate>
+				<QueryGenerateAnalyticalSns> 0 </QueryGenerateAnalyticalSns>
+				<ExcludeAnalyticalSnsCompuation> 0 </ExcludeAnalyticalSnsCompuation>
+				<TermStructureAsOneBump> 1 </TermStructureAsOneBump>
+				<SausageMode> 0 </SausageMode>
+				<QRBuckets>
+					<OneDCurve>
+						<InterpolationMethod> Linear </InterpolationMethod>
+						<NumberOfElements> 7 </NumberOfElements>
+						<Buckets>  7.0136986301370  ;   9.0109589041096  ;  10.0136986301370  ;  12.0191780821918  ;  15.0164383561644  ;  20.0191780821918  ;  25.0219178082192 </Buckets>
+						<Values>  0.0010000000000  ;   0.0010000000000  ;   0.0010000000000  ;   0.0010000000000  ;   0.0010000000000  ;   0.0010000000000  ;   0.0010000000000 </Values>
+					</OneDCurve>
+				</QRBuckets>
+			</Query>
+		</Queries>
+	</QueriesList>
+	<WorkOnGpu> No </WorkOnGpu>
+	<Payoff>
+		<ScriptEval> Python </ScriptEval>
+		<Trace> No </Trace>
+		<PastCashFlowsOnly> No </PastCashFlowsOnly>
+		<VariablesList>
+			<NumberOfElements> 2 </NumberOfElements>
+			<Variables>
+				<Variable>
+					<VariableDescription> Underlying ; Discounted ; Contract ; Double </VariableDescription>
+				</Variable>
+				<Variable>
+					<VariableDescription> Option ; Discounted ; Contract ; Double </VariableDescription>
+				</Variable>
+			</Variables>
+		</VariablesList>
+		<FormulasList>
+			<NumberOfElements> 61 </NumberOfElements>
+			<Formulas>
+				<Formula> 60 ; 19.756164 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,19.767123,20.019178, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 19.756164, 20.019178)  </Formula>
+				<Formula> 20 ; 19.520548 ; Basic ; self.Underlying=self.Underlying+1672777.205944444519*Discount(0, 19.520548, 20.019178)  </Formula>
+				<Formula> 59 ; 19.504110 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,19.520548,19.769863, 0.252777777778,tenor=3)*0.250000000000)*Discount(0, 19.504110, 19.767123)  </Formula>
+				<Formula> 58 ; 19.260274 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,19.271233,19.520548, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 19.260274, 19.520548)  </Formula>
+				<Formula> 19 ; 19.019178 ; Basic ; self.Underlying=self.Underlying+1691467.454055555630*Discount(0, 19.019178, 19.520548)  </Formula>
+				<Formula> 57 ; 19.008219 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,19.019178,19.271233, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 19.008219, 19.271233)  </Formula>
+				<Formula> 56 ; 18.758904 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,18.769863,19.021918, 0.255555555556,tenor=3)*0.252777777778)*Discount(0, 18.758904, 19.019178)  </Formula>
+				<Formula> 18 ; 18.520548 ; Basic ; self.Underlying=self.Underlying+1672777.205944444519*Discount(0, 18.520548, 19.019178)  </Formula>
+				<Formula> 55 ; 18.509589 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,18.520548,18.769863, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 18.509589, 18.769863)  </Formula>
+				<Formula> 54 ; 18.260274 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,18.271233,18.520548, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 18.260274, 18.520548)  </Formula>
+				<Formula> 17 ; 18.021918 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 18.021918, 18.520548)  </Formula>
+				<Formula> 53 ; 18.010959 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,18.021918,18.273973, 0.255555555556,tenor=3)*0.252777777778)*Discount(0, 18.010959, 18.271233)  </Formula>
+				<Formula> 52 ; 17.761644 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,17.772603,18.024658, 0.255555555556,tenor=3)*0.252777777778)*Discount(0, 17.761644, 18.021918)  </Formula>
+				<Formula> 16 ; 17.523288 ; Basic ; self.Underlying=self.Underlying+1672777.205944444519*Discount(0, 17.523288, 18.021918)  </Formula>
+				<Formula> 51 ; 17.512329 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,17.523288,17.772603, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 17.512329, 17.772603)  </Formula>
+				<Formula> 50 ; 17.263014 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,17.273973,17.523288, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 17.263014, 17.523288)  </Formula>
+				<Formula> 15 ; 17.016438 ; Basic ; self.Underlying=self.Underlying+1700812.578111111186*Discount(0, 17.016438, 17.523288)  </Formula>
+				<Formula> 49 ; 17.010959 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,17.016438,17.273973, 0.261111111111,tenor=3)*0.261111111111)*Discount(0, 17.010959, 17.273973)  </Formula>
+				<Formula> 48 ; 16.758904 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,16.764384,17.016438, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 16.758904, 17.016438)  </Formula>
+				<Formula> 14 ; 16.515068 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 16.515068, 17.016438)  </Formula>
+				<Formula> 47 ; 16.509589 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,16.515068,16.764384, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 16.509589, 16.764384)  </Formula>
+				<Formula> 46 ; 16.263014 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,16.268493,16.515068, 0.250000000000,tenor=3)*0.250000000000)*Discount(0, 16.263014, 16.515068)  </Formula>
+				<Formula> 13 ; 16.016438 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 16.016438, 16.515068)  </Formula>
+				<Formula> 45 ; 16.010959 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,16.016438,16.268493, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 16.010959, 16.268493)  </Formula>
+				<Formula> 44 ; 15.758904 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,15.764384,16.016438, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 15.758904, 16.016438)  </Formula>
+				<Formula> 12 ; 15.515068 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 15.515068, 16.016438)  </Formula>
+				<Formula> 43 ; 15.509589 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,15.515068,15.764384, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 15.509589, 15.764384)  </Formula>
+				<Formula> 42 ; 15.263014 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,15.268493,15.515068, 0.250000000000,tenor=3)*0.250000000000)*Discount(0, 15.263014, 15.515068)  </Formula>
+				<Formula> 11 ; 15.016438 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 15.016438, 15.515068)  </Formula>
+				<Formula> 41 ; 15.010959 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,15.016438,15.268493, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 15.010959, 15.268493)  </Formula>
+				<Formula> 40 ; 14.753425 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,14.764384,15.016438, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 14.753425, 15.016438)  </Formula>
+				<Formula> 10 ; 14.515068 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 14.515068, 15.016438)  </Formula>
+				<Formula> 39 ; 14.504110 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,14.515068,14.764384, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 14.504110, 14.764384)  </Formula>
+				<Formula> 38 ; 14.263014 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,14.268493,14.515068, 0.250000000000,tenor=3)*0.250000000000)*Discount(0, 14.263014, 14.515068)  </Formula>
+				<Formula> 9 ; 14.016438 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 14.016438, 14.515068)  </Formula>
+				<Formula> 37 ; 14.005479 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,14.016438,14.268493, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 14.005479, 14.268493)  </Formula>
+				<Formula> 36 ; 13.753425 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,13.764384,14.016438, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 13.753425, 14.016438)  </Formula>
+				<Formula> 8 ; 13.515068 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 13.515068, 14.016438)  </Formula>
+				<Formula> 35 ; 13.504110 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,13.515068,13.764384, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 13.504110, 13.764384)  </Formula>
+				<Formula> 34 ; 13.254795 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,13.265753,13.515068, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 13.254795, 13.515068)  </Formula>
+				<Formula> 7 ; 13.016438 ; Basic ; self.Underlying=self.Underlying+1672777.205944444519*Discount(0, 13.016438, 13.515068)  </Formula>
+				<Formula> 33 ; 13.005479 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,13.016438,13.268493, 0.255555555556,tenor=3)*0.252777777778)*Discount(0, 13.005479, 13.265753)  </Formula>
+				<Formula> 32 ; 12.756164 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,12.767123,13.019178, 0.255555555556,tenor=3)*0.252777777778)*Discount(0, 12.756164, 13.016438)  </Formula>
+				<Formula> 6 ; 12.517808 ; Basic ; self.Underlying=self.Underlying+1672777.205944444519*Discount(0, 12.517808, 13.016438)  </Formula>
+				<Formula> 31 ; 12.506849 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,12.517808,12.767123, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 12.506849, 12.767123)  </Formula>
+				<Formula> 30 ; 12.257534 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,12.268493,12.517808, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 12.257534, 12.517808)  </Formula>
+				<Formula> 5 ; 12.019178 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 12.019178, 12.517808)  </Formula>
+				<Formula> 29 ; 12.008219 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,12.019178,12.271233, 0.255555555556,tenor=3)*0.252777777778)*Discount(0, 12.008219, 12.268493)  </Formula>
+				<Formula> 28 ; 11.756164 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,11.761644,12.019178, 0.261111111111,tenor=3)*0.261111111111)*Discount(0, 11.756164, 12.019178)  </Formula>
+				<Formula> 4 ; 11.512329 ; Basic ; self.Underlying=self.Underlying+1700812.578111111186*Discount(0, 11.512329, 12.019178)  </Formula>
+				<Formula> 27 ; 11.506849 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,11.512329,11.761644, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 11.506849, 11.761644)  </Formula>
+				<Formula> 26 ; 11.260274 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,11.271233,11.520548, 0.252777777778,tenor=3)*0.244444444444)*Discount(0, 11.260274, 11.512329)  </Formula>
+				<Formula> 3 ; 11.013699 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 11.013699, 11.512329)  </Formula>
+				<Formula> 25 ; 11.008219 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,11.013699,11.271233, 0.261111111111,tenor=3)*0.261111111111)*Discount(0, 11.008219, 11.271233)  </Formula>
+				<Formula> 24 ; 10.756164 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,10.761644,11.013699, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 10.756164, 11.013699)  </Formula>
+				<Formula> 2 ; 10.512329 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 10.512329, 11.013699)  </Formula>
+				<Formula> 23 ; 10.506849 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,10.512329,10.761644, 0.252777777778,tenor=3)*0.252777777778)*Discount(0, 10.506849, 10.761644)  </Formula>
+				<Formula> 22 ; 10.260274 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,10.265753,10.512329, 0.250000000000,tenor=3)*0.250000000000)*Discount(0, 10.260274, 10.512329)  </Formula>
+				<Formula> 1 ; 10.013699 ; Basic ; self.Underlying=self.Underlying+1682122.330000000075*Discount(0, 10.013699, 10.512329)  </Formula>
+				<Formula> 21 ; 10.008219 ; Basic ; self.Underlying=self.Underlying+-100000000.000000*(Libor(0,10.013699,10.265753, 0.255555555556,tenor=3)*0.255555555556)*Discount(0, 10.008219, 10.265753)  </Formula>
+				<Formula> 0 ; 10.008219 ; Major ; self.Option=Choose(self.Underlying-0.0,self.Option)  </Formula>
+			</Formulas>
+		</FormulasList>
+	</Payoff>
+</MacsML>
